@@ -1,7 +1,7 @@
 import { useActiveSection } from '../hooks/useActiveSection'
 import { useScrollProgress } from '../hooks/useScrollProgress'
 import { motion } from 'framer-motion'
-import resume from '../assets/sakshi gaikwad_Cv.pdf'
+import resume from '../assets/sakshi.cv.pdf'
 
 const links = [
   { label: 'Home', href: '#home' },
