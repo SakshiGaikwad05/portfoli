@@ -1,7 +1,6 @@
 import Stars from './components/Stars'
 import SectionTitle from './components/SectionTitle'
 import Hero from './components/Hero'
-import About from './components/About'
 import Skills from './components/Skills'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
@@ -15,11 +14,6 @@ function App() {
 
       <div style={{ marginTop: 40 }}>
         <Hero />
-      </div>
-
-      <div className="standard-container" style={{ marginTop: 48 }}>
-        <SectionTitle>About Me</SectionTitle>
-        <About />
       </div>
 
       <div className="standard-container" style={{ marginTop: 48 }}>
