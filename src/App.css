@@ -165,6 +165,19 @@
   animation-play-state: paused;
 }
 
+.marquee-reverse {
+  animation-direction: reverse;
+}
+
+.skill-rows {
+  display: flex;
+  flex-direction: column;
+}
+
+.skill-rows .marquee-container + .marquee-container {
+  padding-top: 4px;
+}
+
 @keyframes marquee {
   0% { transform: translate(0); }
   to { transform: translate(-33.333%); }
@@ -189,7 +202,6 @@
 }
 
 .skill-name {
-  text-transform: capitalize;
   letter-spacing: 0.5px;
 }
 
