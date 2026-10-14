@@ -87,7 +87,7 @@ export default function Hero() {
             </a>
 
             <p className="font-['Figtree'] text-[.85rem] font-semibold underline underline-offset-4" style={{ color: 'var(--text-primary)', textDecorationColor: 'var(--border-subtle)' }}>
-              Currently Building AI Automation Solutions
+              Full Stack Developer
             </p>
 
             <div className="flex items-center justify-center md:justify-start gap-1 font-['JetBrains_Mono'] text-[.8rem] mt-[2px]" style={{ color: 'var(--text-zinc-400)' }}>
@@ -110,8 +110,8 @@ export default function Hero() {
         style={{ color: 'var(--text-zinc-400)', whiteSpace: 'pre-line' }}
       >
         {highlight(
-          "Hi, I'm Sakshi Gaikwad 👋\nPassionate about building, writing, and turning ideas into products.\nI love creating AI-powered solutions that solve real-world problems.\nOpen to freelance work, internships, and collaborations.",
-          ['AI-powered']
+          "Hi, I'm Sakshi Gaikwad 👋\nI build web apps end to end, from the interface to the database.\nMost of my projects start with a problem I've had myself, like hunting for startups that are hiring, which became Daily Startup Finder.\nOpen to internships, freelance work and collaborations.",
+          ['Daily Startup Finder']
         )}
       </motion.p>
 
